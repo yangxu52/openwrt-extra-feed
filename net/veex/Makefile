@@ -3,7 +3,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=veex
-PKG_VERSION:=0.4.3
+PKG_VERSION:=0.5.3
 PKG_RELEASE:=1
 
 VEEX_REPO_OWNER:=yangxu52
@@ -12,10 +12,10 @@ VEEX_REPO_NAME:=VeeX
 # GitHub codeload archives unpack to "$(repo)-$(version)".
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(VEEX_REPO_NAME)-$(PKG_VERSION)
 
-# v0.4.3 tag resolves to commit cfa04cfeb8898a50c162a6314eef7d3df0cca825.
+# v0.5.3 tag resolves to commit b10e14691459ab456e1d04ba7154f2754797f074.
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/$(VEEX_REPO_OWNER)/$(VEEX_REPO_NAME)/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=cf1fbac19a9129dc6255478ff48c179a0c83a1f5b66295ff8807c09205e2c10d
+PKG_HASH:=37927cd1b0b2ec3d559a69a08a106f2fd6d0d7091b497214c5f19bcfe23c041a
 
 PKG_MAINTAINER:=openwrt-foundry maintainers
 PKG_LICENSE:=MPL-2.0

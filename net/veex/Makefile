@@ -6,7 +6,7 @@ PKG_NAME:=veex
 PKG_VERSION:=0.5.3
 PKG_RELEASE:=1
 
-VEEX_REPO_OWNER:=yangxu52
+VEEX_REPO_OWNER:=Project-VeeX
 VEEX_REPO_NAME:=VeeX
 
 # GitHub codeload archives unpack to "$(repo)-$(version)".
